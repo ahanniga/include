@@ -12,7 +12,7 @@ Your tiddlers are saved in a directory called `.include` under your home directo
 
 ## Installation
 
-1. Download a binary suitable for your OS from the [releases](https://github.com/ahanniga/tiddly-dark-desktop/releases/) page.
+1. Download a binary suitable for your OS from the [releases](https://github.com/ahanniga/include/releases) page.
 2. Unzip the file into a directory
 3. Run the executable
 4. On first run the default Tiddlers are copied to the user home directory under `~/.include`
