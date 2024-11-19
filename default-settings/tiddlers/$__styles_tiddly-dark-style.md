@@ -1,9 +1,18 @@
+/* Editor Font */
+
+@font-face {
+    font-family: 'HackNerdMono';
+    src: url("files/HackNerdFont-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: sans-serif;
+}
+
 /* Mono look to tag labels */
 span.tc-tag-label {
     padding: 6px 10px;
     border-radius: 12px;
     color: <<colour muted-foreground>> !important;
-  border: 1px solid <<colour tiddler-border>>;
+    border: 1px solid <<colour tiddler-border>>;
     background: transparent;
 }
 
@@ -51,7 +60,7 @@ span.tc-tag-label {
 }
 
 .tc-titlebar h2 {
-  font-size: 17pt;
+  font-size: 18pt;
 }
 
 .tc-tiddler-frame .tc-tiddler-controls {
@@ -61,6 +70,11 @@ span.tc-tag-label {
 .tc-tiddler-controls button {
   max-width: 18px;
   margin-left: 10px;
+}
+
+input.tc-titlebar.tc-edit-texteditor {
+    font-family: inherit; /* Not mono */
+    font-size: 18pt;
 }
 
 textarea, input[type=text], input[type=search], input[type=""], input:not([type]) {
@@ -95,6 +109,7 @@ span.tc-tag-label {
 
 code, kbd, samp, pre {
 	font-size: 10pt;
+    font-family: 'HackNerdMono', monospace;
 }
 
 .tc-sidebar-scrollable {
@@ -180,7 +195,12 @@ button.tc-unfold-banner {
 }
 
 .ͼ1 .cm-scroller {
-    font-family: "Hack Nerd Font";
+    font-family: 'HackNerdMono', monospace;
+}
+
+.tc-tiddler-edit-frame textarea,
+.tc-edit-texteditor, .tc-edit-texteditor textarea {
+    font-family: 'HackNerdMono', monospace;
 }
 
 hr {
@@ -192,11 +212,11 @@ hr {
     border-right: none;
 }
 
-/* Placeholder */
 ::placeholder {
   color: <<colour muted-foreground>>;
   opacity: 1; /* Firefox */
-  font-style: italic !important;
+  font-family: sans-serif;
+  font-style: italic;
 }
 
 .ͼ1 .cm-placeholder {

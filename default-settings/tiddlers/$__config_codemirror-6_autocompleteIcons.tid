@@ -1,0 +1,9 @@
+caption: Autocompletion icons
+created: 20241021103358624
+description: whether or not the autocompletion icons should be shown
+modified: 20241021103358624
+settings-template: $:/plugins/BTC/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/autocompleteIcons
+type: text/vnd.tiddlywiki
+
+no

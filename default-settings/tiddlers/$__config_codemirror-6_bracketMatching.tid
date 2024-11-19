@@ -1,0 +1,9 @@
+caption: Bracket matching
+created: 20241021103402286
+description: whether or not matching brackets should be highlighted
+modified: 20241021103402286
+settings-template: $:/plugins/BTC/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/bracketMatching
+type: text/vnd.tiddlywiki
+
+no

@@ -1,0 +1,11 @@
+caption: Indent Unit Multiplier
+created: 20241021103413967
+description: The Multiplier for the Unit used for Indentation
+modified: 20241021103413967
+option-names: 1 2 3 4 5 6 7 8 9 10 11 12
+option-values: 1 2 3 4 5 6 7 8 9 10 11 12
+settings-template: $:/plugins/BTC/tiddlywiki-codemirror-6/ui/templates/settings/select
+title: $:/config/codemirror-6/indentUnitMultiplier
+type: text/vnd.tiddlywiki
+
+4

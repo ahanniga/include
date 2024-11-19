@@ -1,0 +1,9 @@
+caption: Complete any word
+created: 20241021103405258
+description: whether or not any word of the currently edited tiddler should be uses for autocompletion
+modified: 20241021103405258
+settings-template: $:/plugins/BTC/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/completeAnyWord
+type: text/vnd.tiddlywiki
+
+no

@@ -1,0 +1,9 @@
+caption: Close brackets
+created: 20241021103403554
+description: whether or not brackets should be closed automatically
+modified: 20241021103403554
+settings-template: $:/plugins/BTC/tiddlywiki-codemirror-6/ui/templates/settings/input-switch
+title: $:/config/codemirror-6/closeBrackets
+type: text/vnd.tiddlywiki
+
+no

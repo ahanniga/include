@@ -107,3 +107,4 @@ toolbar-cancel-button:
 toolbar-done-button: 
 untagged-background: #44475a
 very-muted-foreground: rgba(255,255,255,0.2)
+sidebar-scrollable-bg: #313240

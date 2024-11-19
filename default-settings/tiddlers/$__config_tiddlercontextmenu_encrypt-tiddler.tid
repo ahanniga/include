@@ -1,0 +1,10 @@
+caption: Encrypt
+created: 20241030215040500
+icon: $:/core/images/locked-padlock
+modified: 20241030221423110
+tags: $:/tags/tiddlercontextmenu
+title: $:/config/tiddlercontextmenu/encrypt-tiddler
+tm-message: tw-encrypt-tiddler
+type: text/vnd.tiddlywiki
+
+hide

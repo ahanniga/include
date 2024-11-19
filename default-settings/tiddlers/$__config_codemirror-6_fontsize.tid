@@ -1,0 +1,9 @@
+caption: Font-size
+created: 20241019232616855
+description: The fontsize of the text within the editor
+modified: 20241019232616954
+settings-template: $:/plugins/BTC/tiddlywiki-codemirror-6/ui/templates/settings/input
+title: $:/config/codemirror-6/fontsize
+type: text/vnd.tiddlywiki
+
+13px

@@ -4,7 +4,7 @@ Click on the markdown icon in the side panel to create a new Markdown tiddler or
 
 ## Image and sizing
 
-[img width=700 [docker-port.jpeg]]
+[img width=700 [files/docker-port.jpeg.jpg]]
   
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum vestibulum est. Cras rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
