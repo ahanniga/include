@@ -6,24 +6,20 @@ const upath = require('upath');
 const os = require('os');
 const fs = require('fs');
 const fse = require('fs-extra');
-const tar = require("tar");
 
 var wikiDir = ".include";
 var homeDir = os.homedir();
 var platform = os.platform;
-var tplArchive = upath.join(__dirname, "server-empty-template.tar.gz");
 var defaultsDir = upath.join(__dirname, "default-settings");
 var tiddlyDir = upath.join(homeDir, wikiDir);
 var port = 23981;
 var mainWindow;
  
-// If data dir does not exist, create and copy in server template
+// If dirs does not exist, create and copy in server template
 if (!fs.existsSync(tiddlyDir)) {
     fs.mkdirSync(tiddlyDir);
-    tar.x({ file: tplArchive, cwd: tiddlyDir, sync: true });
     // Apply default settings and tiddlers
-    fse.copySync(`${defaultsDir}/tiddlers/`, `${tiddlyDir}/tiddlers/`);
-    fse.copySync(`${defaultsDir}/files/`, `${tiddlyDir}/files/`);
+    fse.copySync(`${defaultsDir}/`, `${tiddlyDir}/`);
 }
  
 // Start tiddlywiki
