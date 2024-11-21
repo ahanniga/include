@@ -2,7 +2,7 @@
 
 #include is customised server version of [TiddlyWiki](https://tiddlywiki.com) with a few essential plugins wrapped in Electron, providing a stand-alone application.
 
-![Screenshot](https://github.com/ahanniga/tiddly-dark-desktop/blob/main/resources/include-sshot.png?raw=true)
+![Screenshot](https://github.com/ahanniga/include/blob/main/resources/include-sshot.png?raw=true)
 
 Visit <https://tiddlywiki.com/> to find out more about TiddlyWiki and what it can do.
 
